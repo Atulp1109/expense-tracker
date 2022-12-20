@@ -51,6 +51,3 @@ export function chart_Data(transaction,custom){
       return custom??config;
 }
 
-export function getTotalAmount(transaction){
-    return _.sum(getTotal(transaction))
-}
