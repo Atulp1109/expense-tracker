@@ -1,6 +1,6 @@
 import {createApi,fetchBaseQuery} from '@reduxjs/toolkit/query/react';
 
-const baseURi='https://expense-tracker-8l9p-main-nbfxwaoweq-wm.a.run.app/';
+const baseURi='http://localhost:8080';
 export const apiSlice = createApi({
     baseQuery:fetchBaseQuery({
         baseUrl:baseURi
